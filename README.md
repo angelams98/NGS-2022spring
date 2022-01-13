@@ -1,6 +1,6 @@
 # NGS-2022spring
 
-Possibly subsample 
+#Possibly subsample 
 Remove adapters and quality control (AdapterRemoval, Trimmomatic, cutadapt, fastp)
 Align reads to reference genome, fastq → bam (BWA mem)
 Mark duplicates (Picard)
