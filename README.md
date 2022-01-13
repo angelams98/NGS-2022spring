@@ -1,7 +1,7 @@
 # NGS-2022spring
 
 #Possibly subsample 
-Remove adapters and quality control (AdapterRemoval, Trimmomatic, cutadapt, fastp)
+#Remove adapters and quality control (AdapterRemoval, Trimmomatic, cutadapt, fastp)
 Align reads to reference genome, fastq → bam (BWA mem)
 Mark duplicates (Picard)
 Get variants from alignment, bam → vcf (GATK HaplotypeCaller)
