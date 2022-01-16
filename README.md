@@ -19,3 +19,6 @@ Visualize the phylogenetic tree (iTOL)
 Do PCA analysis to check possible clusters (R)
 
 Predict drug resistance (TB-profiler)
+
+
+nice -n 19 java -jar /usr/local/bin/picard.jar MarkDuplicates -I sorted/ERR3335${IND}_sort.bam -M picard/ERR3335${IND}.markdup.metrics.txt -O picard/ERR3335${IND}.markdup.bam
